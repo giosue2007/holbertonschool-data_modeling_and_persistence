@@ -1,1 +1,1 @@
-UPDATE books SET price = 35.00 WHERE id = 3;
+SELECT title, author, genre, price FROM books WHERE genre = 'Sci-Fi' OR price < 15.00;
