@@ -1,2 +1,1 @@
-SELECT AVG(price)
-FROM books;
+SELECT MIN(price) FROM books;
