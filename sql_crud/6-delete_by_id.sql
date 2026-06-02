@@ -1,2 +1,1 @@
-DELETE FROM books
-WHERE id = 8;
+DELETE FROM books WHERE stock = 0;
