@@ -1,1 +1,1 @@
-SELECT title, author, genre, price
+SELECT * FROM books WHERE genre = 'Sci-Fi' OR price < 15.00;
