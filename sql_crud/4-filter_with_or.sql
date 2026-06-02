@@ -1,1 +1,1 @@
-SELECT * FROM books WHERE genre = 'Sci-Fi' OR price < 15.00;
+SELECT title, genre FROM books WHERE genre = 'Fantasy' OR genre = 'Dystopian' OR genre = 'Sci-Fi';
