@@ -1,0 +1,1 @@
+UPDATE books SET stock = stock + 10 WHERE published_year < 2000;
