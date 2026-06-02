@@ -1,1 +1,1 @@
-SELECT title, genre FROM books WHERE genre = 'Fantasy' OR price < 10;
+UPDATE books SET stock = stock + 5 WHERE published_year < 2000;
