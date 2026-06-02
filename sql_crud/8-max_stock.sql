@@ -1,1 +1,1 @@
-SELECT SUM(stock) FROM books;
+SELECT MAX(stock) FROM books;
