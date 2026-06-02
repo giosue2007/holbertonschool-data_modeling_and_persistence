@@ -1,3 +1,11 @@
-UPDATE books
-SET stock = stock + 5
-WHERE published_year < 2000;
+UPDATE books SET price = 35.0 WHERE id = 3;
+UPDATE books SET stock = stock - 5 WHERE id = 1;
+UPDATE books SET stock = stock - 5 WHERE id = 3;
+UPDATE books SET stock = stock - 5 WHERE id = 6;
+UPDATE books SET stock = stock - 5 WHERE id = 7;
+UPDATE books SET stock = stock - 5 WHERE id = 8;
+UPDATE books SET stock = stock - 5 WHERE id = 10;
+UPDATE books SET stock = stock - 5 WHERE id = 11;
+UPDATE books SET stock = stock - 5 WHERE id = 12;
+UPDATE books SET stock = stock - 5 WHERE id = 15;
+UPDATE books SET stock = stock - 5 WHERE id = 16;
