@@ -1,5 +1,5 @@
-SELECT students.name, course.title
+SELECT students.name, courses.name
 FROM students
-JOIN registrations ON students.id = registrations.student_id
-JOIN course ON registrations.course_id = course.id
-ORDER BY students.name ASC, course.title ASC;
+JOIN student_courses ON students.id = student_courses.student_id
+JOIN courses ON student_courses.course_id = courses.id
+ORDER BY students.name ASC, courses.name ASC;
