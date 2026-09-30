@@ -1,5 +1,4 @@
--- Retrieves title and price for the 3 cheapest books
+-- Retrieves title and price for all books, ordered by price ascending
 SELECT title, price
 FROM books
-ORDER BY price ASC
-LIMIT 3;
+ORDER BY price ASC;
