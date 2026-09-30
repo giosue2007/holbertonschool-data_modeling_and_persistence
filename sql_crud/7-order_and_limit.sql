@@ -1,5 +1,5 @@
--- Retrieves title and price for the 3 cheapest books
-SELECT title, price
+-- Retrieves title and stock for the 5 books with the highest stock
+SELECT title, stock
 FROM books
-ORDER BY price ASC
-LIMIT 3;
+ORDER BY stock DESC
+LIMIT 5;
